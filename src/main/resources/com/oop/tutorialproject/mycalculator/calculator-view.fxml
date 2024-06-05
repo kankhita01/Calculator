@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4db6ac;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.tutorialproject.mycalculator.CalculatorViewcontroller">
+   <children>
+      <Label layoutX="232.0" layoutY="51.0" text="MY CALCULATOR" textFill="#2d58d9">
+         <font>
+            <Font name="Cambria Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NumberOnetextfield" layoutX="65.0" layoutY="117.0" />
+      <TextField fx:id="NumberTwotextfield" layoutX="347.0" layoutY="117.0" />
+      <Button layoutX="274.0" layoutY="175.0" mnemonicParsing="false" onAction="#AddOnClick" text="Add" />
+      <Label fx:id="answerLabel" layoutX="279.0" layoutY="273.0" text="Answer" />
+      <Button layoutX="275.0" layoutY="221.0" mnemonicParsing="false" onAction="#SubOnClick" text="Sub" />
+      <Button layoutX="333.0" layoutY="201.0" mnemonicParsing="false" onAction="#DivOnClick" text="Div" />
+      <Button layoutX="210.0" layoutY="201.0" mnemonicParsing="false" onAction="#MultiOnClick" text="Multi" />
+      <Button layoutX="467.0" layoutY="192.0" mnemonicParsing="false" onAction="#ClearOnClick" prefHeight="44.0" prefWidth="60.0" text="Clear" />
+   </children>
+</AnchorPane>
